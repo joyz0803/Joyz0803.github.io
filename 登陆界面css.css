@@ -1,0 +1,77 @@
+.num,.pass{
+	width: 300px;
+	height: 30px;
+	border: 1px solid rgba(255,255,255,0.3);
+	padding: 5px 5px 5px 5px;
+	border-radius: 0px;
+	/*color: #FFF;*/
+	border-radius: 3px;	/*圆角*/
+}
+/*文本框长宽高、边距*/
+
+.num{
+	background: url(https://img2.baidu.com/it/u=3063029439,2036275027&fm=253&fmt=auto&app=120&f=JPEG?w=1280&h=800) no-repeat 0px center rgba(255,255,255,0.1);
+}
+
+.pass{
+	background: url(https://img2.baidu.com/it/u=3063029439,2036275027&fm=253&fmt=auto&app=120&f=JPEG?w=1280&h=800) no-repeat 0px center rgba(255,255,255,0.1); 
+	/*background-size: cover;*/
+}
+
+.btn01{
+	width: 320px;
+	height: 35px;
+	border-radius: 3px;	/*圆角*/
+	margin-top: 30px;
+	margin-left: 65px;	/*左外边距*/
+	background: #57b2c9;
+	color: #FFF;
+	border: none;
+	text-align: center;
+	
+}
+
+body{
+	font-size: 18px;
+	font-family: "微软雅黑";
+	background: url(https://img0.baidu.com/it/u=937072262,2445742246&fm=253&fmt=auto&app=120&f=JPEG?w=1280&h=800) no-repeat top center;
+	background-size: cover;
+	color: #6495ED; 
+}
+
+.dec,p{
+	padding: 0;/*内边距*/
+	margin: 0;
+	border: 0;
+}
+
+.dec{
+	width: 450px;
+	height: 200px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 250px auto;
+	background: rgba(255,255,255,0.3);
+}
+
+p{
+	margin-top: 15px;
+	text-align: center;
+}
+
+p span{
+	width: 60px;
+	display: inline-block;
+	text-align: right;
+}
+
+.one{
+	font-size: 25px;
+	font-family: "微软雅黑";
+	text-align: center;
+	color: burlywood;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+color: darkslategrey;
+}

@@ -1,0 +1,24 @@
+tr{
+	text-align: center;
+	height: 45px;
+}
+a:link,a:visited{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color: blue;
+	text-decoration: underline;
+	font-size: 17px;
+}
+
+a:active{
+	font-size: 16px;
+	color: crimson;
+}
+
+body{
+	background: url(https://imgpp.ztupic.com/bup/so/20211231/39acf62b9cf249ae4401680355be14e6-1.jpg?x-oss-process=image/resize,w_1024/quality,q_85/watermark,image_d2F0ZXIucG5n,type_ZmFuZ3poZW5naGVpdGk) no-repeat;
+	background-size: cover;
+}
